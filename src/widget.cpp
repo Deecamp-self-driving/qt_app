@@ -37,7 +37,7 @@ Widget::Widget(QWidget *parent) :
 
     frame->resize(476,581);
 
-    frame->setStyleSheet("QFrame#myframe{border-image:url(/home/ubuntu/1.jpg)}");
+    frame->setStyleSheet("QFrame#myframe{border-image:url(./images/1.jpg)}");
 
     ui->setupUi(this);
 }
